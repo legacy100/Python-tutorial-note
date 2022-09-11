@@ -222,8 +222,4 @@
 #     print("Value unknown")
 # print(result)
 
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/legacy100/Python-tutorial-note.git
-git push -u origin main
+
