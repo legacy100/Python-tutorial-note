@@ -222,4 +222,169 @@
 #     print("Value unknown")
 # print(result)
 
+# import random
 
+# x = random.random()
+# num = int(input("Enter a number: "))
+# x = random.randrange(0, num)
+# x = random.randint(0,100)
+# x = random.uniform(0, 100)
+# x = random.randrange(0, 50, 2)
+# print(x)
+
+# x = "paul"
+# y = random.choice(x)
+# print(y)
+
+# x = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+# y = random.sample(x, 4)
+# # print(*y, sep="-")
+# print(*y, sep="\n")
+
+# user = int(input("Enter a number between 1 and 10: "))
+# calc = random.randint(1, 10)
+
+# if user == calc:
+    
+#     print(f"YES you got the magic number {calc}, Congratulations you got a match")
+# else:
+#     print(f"The magic number is {calc} Sorry, please try again")
+
+# user = input("Rock, Paper, Scissors: ")
+# game = ["rock", "paper","scissors"]
+# calc = random.choice(game)
+
+# print(f"CPU selection: {calc}")
+
+# if user == "rock":
+#     if calc == "rock":
+#         print("Draw")
+#     elif calc == "paper":
+#         print("You Lose")
+#     elif calc == "scissors":
+#         print("You win")
+# elif user == "paper":
+#     if calc == "rock":
+#         print("You win")
+#     elif calc == "paper":
+#         print("Draw")
+#     elif calc == "scissors":
+#         print("You Lose")
+# elif user == "scissors":
+#     if calc == "rock":
+#         print("You Lose")
+#     elif calc == "paper":
+#         print("You Win")
+#     elif calc == "scissors":
+#         print("Draw")
+# else:
+#     print("Wrong Input")
+
+
+# one = int(input("Enter: "))
+# two = int(input("Enter: "))
+# three = int(input("Enter: "))
+# four = int(input("Enter: "))
+# lottery = [one, two, three, four]
+# x = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+# calc = random.sample(x, 4)
+# print(*calc)
+# if lottery == calc:
+#     print(f"YES!!! You got the lucky lottery numbers: {calc}")
+# else:
+#     print(f"Sorry your input {lottery} does not match the lucky numbers, try again")
+
+
+# items = {1:"rock", 2:"paper",3:"scissors"}
+# # items.update({4:"car",5:"grand"})
+# items.pop(5,None)
+# print(items)
+
+
+# import random
+
+# user = int(input("1-Rock, 2-Paper, 3-Scissors: "))
+# game = {1:"rock", 2:"paper",3:"scissors"}
+# calc = random.choice(list(game.values()))
+
+# print(f"CPU selection: {calc}")
+
+# if game[user] == "rock":
+#     if calc == "rock":
+#         print("Draw")
+#     elif calc == "paper":
+#         print("You Lose")
+#     elif calc == "scissors":
+#         print("You win")
+# elif game[user] == "paper":
+#     if calc == "rock":
+#         print("You win")
+#     elif calc == "paper":
+#         print("Draw")
+#     elif calc == "scissors":
+#         print("You Lose")
+# elif game[user] == "scissors":
+#     if calc == "rock":
+#         print("You Lose")
+#     elif calc == "paper":
+#         print("You Win")
+#     elif calc == "scissors":
+#         print("Draw")
+# else:
+#     print("Wrong Input")
+
+
+# game = {1:"rock", 2:"paper",3:"scissors"}
+
+# for i in game.values():
+# for i in game.items():
+# for i,k in game.items():
+    # print(i,k)
+
+# for i in range(0,10,2):
+#     print(i)
+# import random
+
+# for i in range(0,4):
+#     y = random.randint(0,4)
+#     x = input("Guess the correct number: ")
+#     if y == x:
+#         print("You got a match")
+#     else:
+#         print("Try again")
+#     break
+
+# for i in range(0,4):
+#     x = input("Give me a number: ")
+#     if x == "1":
+#         print("You guessed it right!")
+#         break
+# else:
+#     print("end")
+# for i in x:
+#     if i == 1:
+#         continue
+#     print(i)
+
+# x = ("a","b","c","d","e")
+# b = (2,2,2,2,2)
+# for i in x:
+#     for y in b:
+#         print(i,y)
+
+
+# import random
+
+# x = random.randint(1,5)
+
+# for i in range(0,3):
+#     y = int(input("Guess the number: "))
+
+#     if x == y:
+#         print(f"{x} is a perfect match with {y}")
+#         break
+#     elif i == 1:
+#         print("This will be your last guess")       
+    
+# if y != x:
+#     print(f"===\nSorry!, the correct number is {x}\n===")
